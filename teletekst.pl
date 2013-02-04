@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 use strict;
 use warnings;
@@ -89,6 +89,7 @@ my %CHARMAP = (
 	'GtAWDc6Nj0BZ1AICoBGREw' => ' ',
 	'YoXmvB4lPPR70X3VBieZBg' => "'",
 	'Hg3RzjI+e3xFHNB5Xg+G/g' => '"',
+	'Eo0Dgg4ayAO6FikLwoZyVw' => "\x{2019}", # ’
 	'AwOxpYjql3ld00j44WzlYw' => '.',
 	'TvVXhHUgdSoQx8pjFodOaQ' => ',',
 	'b2/6Bk5y36qUEZMZbQyg3Q' => ':',
@@ -108,8 +109,10 @@ my %CHARMAP = (
 	'VLB6O9W9U1rkRRa0L2VNwg' => "\x{e9}", # é
 	'zpr7eHfGVXECzhDYq9HKKw' => "\x{ef}", # è
 	'eg5b/v462+RnqcKtZOGe6A' => "\x{eb}", # ë
+	'6Rfy9abRjqmsfVbKe4AFhA' => "\x{cb}", # Ë
 	'KEsc2v959ngqMGfn7nK5PA' => "\x{ef}", # ï
 	'vs8Bzt8ZiFizfLOnBOCiZA' => "\x{f6}", # ö
+	'mPlrOID7KFUy4xZfe0x1hQ' => "\x{f4}", # ô
 	'Rdb8D2b6DO4thVCpPhAl9g' => "\x{d6}", # Ö
 	'+KLMUH32JqdyD5HxwHVPpQ' => "\x{161}", # š
 
@@ -154,6 +157,7 @@ my %CHARMAP = (
 	'30qRXmElH002y7cU6Krbww' => 'D',
 	'N4FAJjvsKd+iOFtFTJ2pkw' => 'E',
 	'8SL5svDI1yeBLw9rGR/v0A' => 'I',
+	'A+KCwUVkm2juu/xkpCPUsw' => 'J',
 	't1prlBTSxD4cR1cuZ0T4LQ' => 'K',
 	'DVon5vsiACP8bAn7AC3W9g' => 'N',
 	'8LqlR9pGskDY05N1ZiaTiw' => 'O',
@@ -203,6 +207,7 @@ my %CHARMAP = (
 	'codXG3zhYhXKDeT4EK6Abw' => ' ', # D
 	'0qFBlnEO7MMDU6OHq97g/Q' => ' ', # E
 	'n6kAv9SRGrpD7IuDJbtYmg' => ' ', # I
+	'uZGyCOiZDCfG1sUEn1qRUA' => ' ', # J
 	'axYsVgPCNdH8drrrpjT4xg' => ' ', # K
 	'KQOK3wW4ao+b6zeOlqUK8A' => ' ', # N
 	'vDiSf6e/xemQdRnq80joyg' => ' ', # O (inverse)
