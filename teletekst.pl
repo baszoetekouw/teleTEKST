@@ -106,6 +106,7 @@ my %CHARMAP = (
 	'nLoCwPh0qvwuvJhUhS94Pw' => "\x{e2}", # â
 	'DAlN3FeEpq7CEfIVCTIZtQ' => "\x{e1}", # á
 	'5phEStq6CPPXN37ZnS5Ujg' => "\x{e4}", # ä
+	'gou3QxkrnMuc3b6UvLEAEA' => "\x{ea}", # ê
 	'VLB6O9W9U1rkRRa0L2VNwg' => "\x{e9}", # é
 	'zpr7eHfGVXECzhDYq9HKKw' => "\x{ef}", # è
 	'eg5b/v462+RnqcKtZOGe6A' => "\x{eb}", # ë
