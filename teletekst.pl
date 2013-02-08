@@ -155,21 +155,30 @@ my %CHARMAP = (
 	# double height top
 	'fYOs74EEjVCuNQxMtpVMgQ' => 'A',
 	'eqpd4En/DjSmhCx9s9aKFw' => 'B',
+	'JYWWtxZLmWHZ8PDMcCVrkw' => 'C',
 	'30qRXmElH002y7cU6Krbww' => 'D',
 	'N4FAJjvsKd+iOFtFTJ2pkw' => 'E',
+	'Q4G5X7y/uBCkal4CjSEG/A' => 'F',
 	'V5DyOdhyxzh39p8eNXYGFA' => 'G',
 	'LbGuTJnf1XD3P3jYhJBvoA' => 'H',
 	'8SL5svDI1yeBLw9rGR/v0A' => 'I',
 	'A+KCwUVkm2juu/xkpCPUsw' => 'J',
 	't1prlBTSxD4cR1cuZ0T4LQ' => 'K',
+	'5YP2cB69pU/4+eTPjqJKLw' => 'L',
+	'DoHxXW4Ihs472/a21PFpDQ' => 'M',
 	'DVon5vsiACP8bAn7AC3W9g' => 'N',
 	'8LqlR9pGskDY05N1ZiaTiw' => 'O',
 	'yOwxjDOj0EshRCCs18T2lw' => 'P',
+	# Q
 	'2vkPNmRwiuRuT7yqJxnOYw' => 'R',
 	'N7fS0emWoLyOET11bxwHKg' => 'S',
 	'iGnZmibdFf7cZR68Jv9o2Q' => 'T',
+	'IHY1fODHkyZHBg2pEf5Cmw' => 'U',
 	'vA0Xt6R3taIXCWGMT5G+AA' => 'V',
 	'1hxVLiphabl8qFYgy1xQNg' => 'W',
+	# X
+	# Y
+	# Z
 	'uF/gJmhC+YzwWqhlZtpQbQ' => 'a',
 	'BA7tBX8CD5Yddo0iMnpQgA' => 'b',
 	'zM+0vUmDcGeKOLN2pXMjoA' => 'c',
@@ -186,18 +195,25 @@ my %CHARMAP = (
 	'WU2O/ZR32bnrN5mh3Z2L8A' => 'n',
 	'Aw+ebkYR5bMVLgXaHHRs7w' => 'o',
 	'R3FomhLXnpcvolLoIFmCbg' => 'p',
+	# q
 	'cUbJ7qShe5vkuJ8bZijuGA' => 'r',
 	'6KLyE65WADlr7+rpF9lQNA' => 's',
 	'lYnQ5tmdPGqdPOgMH8SkKQ' => 't',
 	'ja7yFcNzpf3RNjt5phOABw' => 'u',
 	'QUl/Qwm5wx7LV5jL9IWXCw' => 'v',
 	'9aVQcR3ZCf3LAX/ACUdRUA' => 'w',
+	# x
 	'tfIZmSt82AE51g+//alCuw' => 'y',
 	'mko3GKLIFnQOoSH1v59Qrw' => 'z',
+	# 1
 	'apS+EAKKu9AF05WG/xgmOg' => '2',
 	'OANB4oesWbWepCM1FxqAfA' => '3',
 	'k+EvxEMLy2MsV6Np6PXR+w' => '4',
+	# 5
 	'2jLVefWXERE2DgzGIUFcdA' => '6',
+	# 7
+	'dBKGqWiPvdi6fbbeuasqJA' => '8',
+	# 9
 	'kyMsBMYIrCxzyfOZrCoVyA' => '0',
 	'H2uFubmvaONJFAnXGX1/7Q' => '"',
 	'qld8w1/Wl6DrY0OAybDHrw' => ':',
@@ -207,19 +223,24 @@ my %CHARMAP = (
 	# double height bottom
 	'NwxPqWhvL+a2SVHzVBdgvw' => ' ', # A
 	'KTCF05zNjd7zxpHGtVKwXg' => ' ', # B
+	'lN+qGwBDZNqnP+BDYTBpmQ' => ' ', # C
 	'codXG3zhYhXKDeT4EK6Abw' => ' ', # D
 	'0qFBlnEO7MMDU6OHq97g/Q' => ' ', # E
+	'nUKQ4cFdYH0iORUf5SBJMw' => ' ', # F (?)
 	'x0HCLQhFPPxYIUJHIlNzyQ' => ' ', # G
 	'wDQsTen8LR53pjjKx7h4zg' => ' ', # H
 	'n6kAv9SRGrpD7IuDJbtYmg' => ' ', # I
 	'uZGyCOiZDCfG1sUEn1qRUA' => ' ', # J
 	'axYsVgPCNdH8drrrpjT4xg' => ' ', # K
+	'bQpmN/KtfpGO/i/ZpEFJig' => ' ', # L
 	'KQOK3wW4ao+b6zeOlqUK8A' => ' ', # N
+	'axWlA6K3tNH5K/8zYvrVrA' => ' ', # M (inverse)
 	'vDiSf6e/xemQdRnq80joyg' => ' ', # O (inverse)
 	'/qa6OkzeBqZ1C2lYMt1Fjg' => ' ', # P
 	'chpPR17D1Vibzd8aeypfcA' => ' ', # R
 	'WqXadYPmuvzCKcZ1h4eIkA' => ' ', # S
 	'nUKQ4cFdYH0iORUf5SBJMw' => ' ', # T
+	'XgS036gVcYSzOS6tF7uUZg' => ' ', # U
 	'NPrtpFfF8IZcdeUlc1DwzA' => ' ', # V
 	'h1KdBg2lR+DjY2gfWMdWig' => ' ', # W
 	'0m+2/w2ZAvLn6ak9waINng' => ' ', # a
@@ -245,7 +266,9 @@ my %CHARMAP = (
 	'UmZsnM9lWmz9D0Kl8maMJA' => ' ', # w
 	'sEVjAGQ6GlwofZkYkOPGpg' => ' ', # y
 	'1r4OzvfYSWdGZ1Hn0KUcnQ' => ' ', # z
+	'ogzRTLIRl7BiAaJDvuRHtQ' => ' ', # 2
 	'OXZzYKjCadEmTaLOjVMTpw' => ' ', # 3
+	'm0cboPENe9kLt4kxbTDFFw' => ' ', # 8
 	'lx9BQfJE6OzCyqMpIRvRpQ' => ' ', # 0
 	'E0JW3xWti6sV400J48qygA' => ' ', # :
 	'4p+S2OkLey9psZHFUhTs2g' => ' ', # -
