@@ -58,4 +58,3 @@ TODO/Known bugs:
  - Double-height character support is flakey
  - Parsing a page is slow as hell
  - Subpages are not supported
- - Need to iumplemente "page nog found" messages

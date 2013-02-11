@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use LWP::Simple;
+use LWP::UserAgent;
 use File::Temp qw(tempfile);
 use Image::Imlib2;
 use Digest::MD5 qw(md5_base64);
@@ -328,8 +328,19 @@ sub fetch_page
 
 	debug(0,"Fetching page $page/$subpage");
 
+	my $ua = LWP::UserAgent->new;
+	$ua->timeout(2);
+	$ua->env_proxy;
+
 	my $url = sprintf($URL,$page,$subpage);
-	my $content = get($url) or return;
+	my $response = $ua->get($url);
+	if (!$response->is_success)
+	{
+		die "Error while setting page `$url': " .  $response->status_line . "\n";
+	}
+
+
+	my $content = $response->decoded_content or return;
 
 	my ($fh,$filename) = tempfile( 'ttXXXXXX', TMPDIR=>1, UNLINK=>1 );
 	binmode($fh,':bytes');
