@@ -111,11 +111,16 @@ my %CHARMAP = (
 	'zpr7eHfGVXECzhDYq9HKKw' => "\x{ef}", # è
 	'eg5b/v462+RnqcKtZOGe6A' => "\x{eb}", # ë
 	'6Rfy9abRjqmsfVbKe4AFhA' => "\x{cb}", # Ë
+	'CETT2WuDO2+pYDLlX8YU4Q' => "\x{c9}", # É
 	'5HSyAWuKjE488MFkCatgUQ' => "\x{ed}", # í
+	'onm1Rm317tQvJoi3zbxMFw' => "\x{ee}", # î
 	'KEsc2v959ngqMGfn7nK5PA' => "\x{ef}", # ï
 	'vs8Bzt8ZiFizfLOnBOCiZA' => "\x{f6}", # ö
 	'mPlrOID7KFUy4xZfe0x1hQ' => "\x{f4}", # ô
 	'Rdb8D2b6DO4thVCpPhAl9g' => "\x{d6}", # Ö
+	'jllcAJf0qr91IUvSTsMXqg' => "\x{fc}", # ü
+	'pfWbAHqYjJ+dR7smg/tBGg' => "\x{d8}", # Ø
+	'c5Ad7M+C/JoSz7dmluzEGw' => "\x{f1}", # ñ
 	'+KLMUH32JqdyD5HxwHVPpQ' => "\x{161}", # š
 
 	'jnANoReEIdj4M592Z8xs0A' => "\x{2500}", # ─ light horizontal
