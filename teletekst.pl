@@ -116,6 +116,7 @@ my %CHARMAP = (
 	'vs8Bzt8ZiFizfLOnBOCiZA' => "\x{f6}", # ö
 	'mPlrOID7KFUy4xZfe0x1hQ' => "\x{f4}", # ô
 	'Rdb8D2b6DO4thVCpPhAl9g' => "\x{d6}", # Ö
+	'jllcAJf0qr91IUvSTsMXqg' => "\x{fc}", # ü,
 	'+KLMUH32JqdyD5HxwHVPpQ' => "\x{161}", # š
 
 	'jnANoReEIdj4M592Z8xs0A' => "\x{2500}", # ─ light horizontal
@@ -179,7 +180,7 @@ my %CHARMAP = (
 	'1hxVLiphabl8qFYgy1xQNg' => 'W',
 	# X
 	# Y
-	# Z
+	'X024P1MadsLF+kbrUteBew' => 'Z',
 	'uF/gJmhC+YzwWqhlZtpQbQ' => 'a',
 	'BA7tBX8CD5Yddo0iMnpQgA' => 'b',
 	'zM+0vUmDcGeKOLN2pXMjoA' => 'c',
@@ -210,11 +211,11 @@ my %CHARMAP = (
 	'apS+EAKKu9AF05WG/xgmOg' => '2',
 	'OANB4oesWbWepCM1FxqAfA' => '3',
 	'k+EvxEMLy2MsV6Np6PXR+w' => '4',
-	# 5
+	'dSd2LrvDP2le7xb9ZI6ZOg' => '5',
 	'2jLVefWXERE2DgzGIUFcdA' => '6',
 	# 7
 	'dBKGqWiPvdi6fbbeuasqJA' => '8',
-	# 9
+	'SRIdSi9tmi3MIKYCMGqk+Q' => '9',
 	'kyMsBMYIrCxzyfOZrCoVyA' => '0',
 	'H2uFubmvaONJFAnXGX1/7Q' => '"',
 	'qld8w1/Wl6DrY0OAybDHrw' => ':',
@@ -244,6 +245,7 @@ my %CHARMAP = (
 	'XgS036gVcYSzOS6tF7uUZg' => ' ', # U
 	'NPrtpFfF8IZcdeUlc1DwzA' => ' ', # V
 	'h1KdBg2lR+DjY2gfWMdWig' => ' ', # W
+	'4R091Un6AmKPrUhxPInBDQ' => ' ', # Z
 	'0m+2/w2ZAvLn6ak9waINng' => ' ', # a
 	'BsPG0uz6Ho5eGgSBh9xXYA' => ' ', # b
 	'qDH8ZAy5H5yRgn/PrHE4uw' => ' ', # c
@@ -270,7 +272,9 @@ my %CHARMAP = (
 	'2AQdFKmzlJrmO6ZMUqhRGA' => ' ', # 1
 	'ogzRTLIRl7BiAaJDvuRHtQ' => ' ', # 2
 	'OXZzYKjCadEmTaLOjVMTpw' => ' ', # 3
+	'DoVE51wcBK4FPrQQkDEgmg' => ' ', # 5
 	'm0cboPENe9kLt4kxbTDFFw' => ' ', # 8
+	'eicutLKbpuXKd3KyztMokQ' => ' ', # 9
 	'lx9BQfJE6OzCyqMpIRvRpQ' => ' ', # 0
 	'E0JW3xWti6sV400J48qygA' => ' ', # :
 	'4p+S2OkLey9psZHFUhTs2g' => ' ', # -
