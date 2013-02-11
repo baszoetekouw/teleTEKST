@@ -3,7 +3,7 @@
 use strict;
 use warnings;
 use Data::Dumper;
-use LWP::Simple;
+use LWP::UserAgent;
 use File::Temp qw(tempfile);
 use Image::Imlib2;
 use Digest::MD5 qw(md5_base64);
@@ -297,8 +297,15 @@ sub debug
 	my %all_chars;
 	my %all_colours;
 
+	my $page    = shift @ARGV;
+	my $subpage = shift @ARGV || 1;
 
-	my $image = fetch_page($ARGV[0]) or die;
+	if ( not $page or $page =~ m/[^0-9]/ or $subpage =~ m/[^0-9]/ )
+	{
+		die("Syntax error\n");
+	}
+
+	my $image = fetch_page($page, $subpage) or die;
 	my $chars = split_image($image);
 	print print_page($chars);
 	exit;
@@ -329,13 +336,24 @@ sub debug
 
 sub fetch_page
 {
-	my $page = shift or die;
-	my $subpage = 1;
+	my $page    = shift or die;
+	my $subpage = shift || 1;
 
 	debug(0,"Fetching page $page/$subpage");
 
+	my $ua = LWP::UserAgent->new;
+	$ua->timeout(2);
+	$ua->env_proxy;
+
 	my $url = sprintf($URL,$page,$subpage);
-	my $content = get($url) or return;
+	my $response = $ua->get($url);
+	if (!$response->is_success)
+	{
+		die "Error while setting page `$url': " .  $response->status_line . "\n";
+	}
+
+
+	my $content = $response->decoded_content or return;
 
 	my ($fh,$filename) = tempfile( 'ttXXXXXX', TMPDIR=>1, UNLINK=>1 );
 	binmode($fh,':bytes');
