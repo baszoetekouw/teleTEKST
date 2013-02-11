@@ -291,8 +291,15 @@ sub debug
 	my %all_chars;
 	my %all_colours;
 
+	my $page    = shift @ARGV;
+	my $subpage = shift @ARGV || 1;
 
-	my $image = fetch_page($ARGV[0]) or die;
+	if ( not $page or $page =~ m/[^0-9]/ or $subpage =~ m/[^0-9]/ )
+	{
+		die("Syntax error\n");
+	}
+
+	my $image = fetch_page($page, $subpage) or die;
 	my $chars = split_image($image);
 	print print_page($chars);
 	exit;
@@ -323,8 +330,8 @@ sub debug
 
 sub fetch_page
 {
-	my $page = shift or die;
-	my $subpage = 1;
+	my $page    = shift or die;
+	my $subpage = shift || 1;
 
 	debug(0,"Fetching page $page/$subpage");
 
