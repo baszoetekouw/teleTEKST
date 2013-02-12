@@ -115,6 +115,7 @@ my %CHARMAP = (
 	'5HSyAWuKjE488MFkCatgUQ' => "\x{ed}", # í
 	'onm1Rm317tQvJoi3zbxMFw' => "\x{ee}", # î
 	'KEsc2v959ngqMGfn7nK5PA' => "\x{ef}", # ï
+	'1KnfN1KsZzYhykRYT5DJLg' => "\x{f3}", # ó
 	'vs8Bzt8ZiFizfLOnBOCiZA' => "\x{f6}", # ö
 	'mPlrOID7KFUy4xZfe0x1hQ' => "\x{f4}", # ô
 	'Rdb8D2b6DO4thVCpPhAl9g' => "\x{d6}", # Ö
