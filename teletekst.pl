@@ -218,7 +218,7 @@ my %CHARMAP = (
 	'k+EvxEMLy2MsV6Np6PXR+w' => '4',
 	'dSd2LrvDP2le7xb9ZI6ZOg' => '5',
 	'2jLVefWXERE2DgzGIUFcdA' => '6',
-	# 7
+	'+mitOYetjGrrsMUt6ru25Q' => '7',
 	'dBKGqWiPvdi6fbbeuasqJA' => '8',
 	'SRIdSi9tmi3MIKYCMGqk+Q' => '9',
 	'kyMsBMYIrCxzyfOZrCoVyA' => '0',
@@ -280,6 +280,7 @@ my %CHARMAP = (
 	'OXZzYKjCadEmTaLOjVMTpw' => ' ', # 3
 	'VaMDLOfE3XbypzGHw/pyyQ' => ' ', # 4
 	'DoVE51wcBK4FPrQQkDEgmg' => ' ', # 5
+	'UmlbpKAt9IGkTmLxYNZgiw' => ' ', # 7
 	'm0cboPENe9kLt4kxbTDFFw' => ' ', # 8
 	'eicutLKbpuXKd3KyztMokQ' => ' ', # 9
 	'lx9BQfJE6OzCyqMpIRvRpQ' => ' ', # 0
