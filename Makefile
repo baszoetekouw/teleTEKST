@@ -1,6 +1,12 @@
+CPP=clang++
+CPPFLAGS=-Wall -Wextra -Werror
+CPPFLAGS+=-std=c++11
+#CPPFLAGS+=-ggdb3
+CPPFLAGS+=-O3
+
 
 foo: teletekst.cpp
-	g++ -std=c++11 -ggdb3 -O0 -o $@ $^ -lgif
+	$(CPP) $(CPPFLAGS) -o $@ $^ -lgif -lcrypto
 
 .PHONY: clean
 clean:
