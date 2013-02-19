@@ -225,6 +225,7 @@ my %CHARMAP = (
 	'H2uFubmvaONJFAnXGX1/7Q' => '"',
 	'qld8w1/Wl6DrY0OAybDHrw' => ':',
 	'PhkK/rakXmU0i2NNxZ03XQ' => '-',
+	'sH0U6sySoHcfsrWLRi3WKw' => "\x{e9}", # é
 	'iiJrpKbqoce9hmfbT/x/WA' => "\x{eb}", # ë
 
 	# double height bottom
