@@ -119,6 +119,7 @@ my %CHARMAP = (
 	'vs8Bzt8ZiFizfLOnBOCiZA' => "\x{f6}", # ö
 	'mPlrOID7KFUy4xZfe0x1hQ' => "\x{f4}", # ô
 	'Rdb8D2b6DO4thVCpPhAl9g' => "\x{d6}", # Ö
+	'9lbAGjm80DGyfN9oBW91qw' => "\x{fa}", # ú
 	'jllcAJf0qr91IUvSTsMXqg' => "\x{fc}", # ü
 	'pfWbAHqYjJ+dR7smg/tBGg' => "\x{d8}", # Ø
 	'c5Ad7M+C/JoSz7dmluzEGw' => "\x{f1}", # ñ
@@ -288,6 +289,7 @@ my %CHARMAP = (
 	'lx9BQfJE6OzCyqMpIRvRpQ' => ' ', # 0
 	'E0JW3xWti6sV400J48qygA' => ' ', # :
 	'4p+S2OkLey9psZHFUhTs2g' => ' ', # -
+	'xq5SeMONzjciG1LRaVP9wQ' => ' ', # ,
 
 );
 
