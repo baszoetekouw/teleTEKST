@@ -94,6 +94,7 @@ my %CHARMAP = (
 	'TvVXhHUgdSoQx8pjFodOaQ' => ',',
 	'b2/6Bk5y36qUEZMZbQyg3Q' => ':',
 	'mI3DdKHNfLKXqVGfi2208A' => ';',
+	'Jb0K+c0moOCT6Q8Zf6DPAw' => '?',
 	'IkjGweRaGuH6vRPLuY7auA' => '/',
 	'rIxOU9F8blB5DNBCzAtA7Q' => '(',
 	'e8Xy2fPYgtv+rCE/YJYyCw' => ')',
@@ -228,6 +229,7 @@ my %CHARMAP = (
 	'H2uFubmvaONJFAnXGX1/7Q' => '"',
 	'qld8w1/Wl6DrY0OAybDHrw' => ':',
 	'PhkK/rakXmU0i2NNxZ03XQ' => '-',
+	'oxwsIjZM6GUEpv1wUfIh2A' => '#',
 	'mQRHPzWxwvgQ3sBGHwZR8w' => "\x{e1}", # á
 	'sH0U6sySoHcfsrWLRi3WKw' => "\x{e9}", # é
 	'iiJrpKbqoce9hmfbT/x/WA' => "\x{eb}", # ë
@@ -292,6 +294,7 @@ my %CHARMAP = (
 	'E0JW3xWti6sV400J48qygA' => ' ', # :
 	'4p+S2OkLey9psZHFUhTs2g' => ' ', # -
 	'xq5SeMONzjciG1LRaVP9wQ' => ' ', # ,
+	'1Aui/fKrolwZLYhvxmQyVQ' => ' ', # # (inverse)
 
 );
 
