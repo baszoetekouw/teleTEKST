@@ -284,6 +284,7 @@ my %CHARMAP = (
 	'OXZzYKjCadEmTaLOjVMTpw' => ' ', # 3
 	'VaMDLOfE3XbypzGHw/pyyQ' => ' ', # 4
 	'DoVE51wcBK4FPrQQkDEgmg' => ' ', # 5
+	'nobtHaYyISaGl6W4HTANIw' => ' ', # 6
 	'UmlbpKAt9IGkTmLxYNZgiw' => ' ', # 7
 	'm0cboPENe9kLt4kxbTDFFw' => ' ', # 8
 	'eicutLKbpuXKd3KyztMokQ' => ' ', # 9
