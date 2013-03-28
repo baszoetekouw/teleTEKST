@@ -189,7 +189,7 @@ my %CHARMAP = (
 	'vA0Xt6R3taIXCWGMT5G+AA' => 'V',
 	'1hxVLiphabl8qFYgy1xQNg' => 'W',
 	'sRhDdxh3Ivoz1r9AEKUqDg' => 'X',
-	# Y
+	'IQpD/Gro0zeegL+yIGoq8g' => 'Y',
 	'X024P1MadsLF+kbrUteBew' => 'Z',
 	'uF/gJmhC+YzwWqhlZtpQbQ' => 'a',
 	'BA7tBX8CD5Yddo0iMnpQgA' => 'b',
