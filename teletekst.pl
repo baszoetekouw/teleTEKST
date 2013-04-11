@@ -276,6 +276,7 @@ my %CHARMAP = (
 	'P0rRZ5RWlAGEuY0kZU6vLQ' => ' ', # n, same as h
 	'x36O4fXo4I02k49zTgAPiw' => ' ', # o
 	'rDPjVEcYcXsxpickOL5NFQ' => ' ', # p
+	'acTdQlugqfVKluN/Xw86Uw' => ' ', # q
 	'j0/6i432gm7wJIieX4O3aQ' => ' ', # r
 	'3SYsMKQVstvhUJ7e8XaOsw' => ' ', # s
 	'pyJytEfbhCf++SvXiByxHg' => ' ', # t
