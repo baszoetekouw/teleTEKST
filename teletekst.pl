@@ -232,6 +232,7 @@ my %CHARMAP = (
 	'PhkK/rakXmU0i2NNxZ03XQ' => '-',
 	'oxwsIjZM6GUEpv1wUfIh2A' => '#',
 	'Zhqjj5zbsf4TYDuFc8c8ag' => '/',
+	'QsdFa9AMoZI3V4TwEHFwEQ' => '%',
 	'mQRHPzWxwvgQ3sBGHwZR8w' => "\x{e1}", # á
 	'sH0U6sySoHcfsrWLRi3WKw' => "\x{e9}", # é
 	'iiJrpKbqoce9hmfbT/x/WA' => "\x{eb}", # ë
@@ -301,6 +302,7 @@ my %CHARMAP = (
 	'xq5SeMONzjciG1LRaVP9wQ' => ' ', # ,
 	'1Aui/fKrolwZLYhvxmQyVQ' => ' ', # # (inverse)
 	'0yUYv/CW91hK6Gy7Hl/CXA' => ' ', # /
+	'24GbrUDu0h2AlS/HwYtK9A' => ' ', # %
 );
 
 my $UNKNOWN = "\x{25af}"; # ▯
