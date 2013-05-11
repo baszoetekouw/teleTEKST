@@ -125,6 +125,7 @@ my %CHARMAP = (
 	'Rdb8D2b6DO4thVCpPhAl9g' => "\x{d6}", # Ö
 	'bNYi9jZ6QVa54/qpjnbqnQ' => "\x{f8}", # ø
 	'9lbAGjm80DGyfN9oBW91qw' => "\x{fa}", # ú
+	'XuB8LVdwPXmTvoNJVpuptw' => "\x{fb}", # û
 	'jllcAJf0qr91IUvSTsMXqg' => "\x{fc}", # ü
 	'pfWbAHqYjJ+dR7smg/tBGg' => "\x{d8}", # Ø
 	'c5Ad7M+C/JoSz7dmluzEGw' => "\x{f1}", # ñ
