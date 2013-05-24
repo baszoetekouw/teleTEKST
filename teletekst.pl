@@ -112,8 +112,8 @@ my %CHARMAP = (
 	'5phEStq6CPPXN37ZnS5Ujg' => "\x{e4}", # ä
 	'J/gKDE3vnsW3tI2AgVwlpQ' => "\x{e7}", # ç
 	'gou3QxkrnMuc3b6UvLEAEA' => "\x{ea}", # ê
+	'zpr7eHfGVXECzhDYq9HKKw' => "\x{e8}", # è
 	'VLB6O9W9U1rkRRa0L2VNwg' => "\x{e9}", # é
-	'zpr7eHfGVXECzhDYq9HKKw' => "\x{ef}", # è
 	'eg5b/v462+RnqcKtZOGe6A' => "\x{eb}", # ë
 	'6Rfy9abRjqmsfVbKe4AFhA' => "\x{cb}", # Ë
 	'CETT2WuDO2+pYDLlX8YU4Q' => "\x{c9}", # É
@@ -235,9 +235,12 @@ my %CHARMAP = (
 	'oxwsIjZM6GUEpv1wUfIh2A' => '#',
 	'Zhqjj5zbsf4TYDuFc8c8ag' => '/',
 	'QsdFa9AMoZI3V4TwEHFwEQ' => '%',
+	'IGv6LQ8Xp7+rbrCmenh9Jw' => '(',
+	'xZc0ULYEPq78fArITsAV+A' => ')',
 	'X/lNc2s8C9kLp2QUyLl8jQ' => "\x{dc}", # Ü
 	'mQRHPzWxwvgQ3sBGHwZR8w' => "\x{e1}", # á
 	'nOeAO4i1nO181q3toa7kfg' => "\x{e4}", # ä
+	'XMi89eqya5e8/BqiYuefFg' => "\x{e8}", # è
 	'sH0U6sySoHcfsrWLRi3WKw' => "\x{e9}", # é
 	'iiJrpKbqoce9hmfbT/x/WA' => "\x{eb}", # ë
 
@@ -308,6 +311,8 @@ my %CHARMAP = (
 	'0yUYv/CW91hK6Gy7Hl/CXA' => ' ', # /
 	'24GbrUDu0h2AlS/HwYtK9A' => ' ', # %
 	'I5q7IGZYpg4u0NEFiTi+pw' => ' ', # ç
+	'AF0EEXLWbDFDEaGfB3cLtw' => ' ', # (
+	'mrIfk8Vl7G9PrrqqhfmY2g' => ' ', # )
 );
 
 my $UNKNOWN = "\x{25af}"; # ▯
