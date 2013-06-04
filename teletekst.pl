@@ -244,6 +244,7 @@ my %CHARMAP = (
 	'nOeAO4i1nO181q3toa7kfg' => "\x{e4}", # ä
 	'XMi89eqya5e8/BqiYuefFg' => "\x{e8}", # è
 	'sH0U6sySoHcfsrWLRi3WKw' => "\x{e9}", # é
+	'eI0XMPGXWnrobMwK610k7A' => "\x{ea}", # ê
 	'iiJrpKbqoce9hmfbT/x/WA' => "\x{eb}", # ë
 	'XMi89eqya5e8/BqiYuefFg' => "\x{ef}", # ï
 
