@@ -4,7 +4,7 @@
 
 int main()
 {
-	auto img = Image("test/P101_01.gif");
+	auto img = Image("../test/P101_01.gif");
 	//img.PrintAll();
 
 	int x,y;
