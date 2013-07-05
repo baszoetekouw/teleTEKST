@@ -7,6 +7,7 @@ use LWP::UserAgent;
 use File::Temp qw(tempfile);
 use Image::Imlib2;
 use Digest::MD5 qw(md5_base64);
+use Storable;
 
 $|=1;
 
@@ -106,7 +107,9 @@ my %CHARMAP = (
 	'UODVaoLlSgTAoTlEk38NVQ' => '#',
 	'8SeyFrOE4M59BLaHTyGBNw' => '!',
 	'lBDIjP1BWu6KbfKIBV9L7g' => '$',
+	'tNTq1vPzpo//u3gNSVh+8Q' => "\x{b0}", # °
 
+	'cPp9+TOq1ZKZj9iaOlXTug' => "\x{c1}", # Á,
 	'nLoCwPh0qvwuvJhUhS94Pw' => "\x{e2}", # â
 	'Zd1z+iPg/GJM7eDykibbIg' => "\x{e0}", # à
 	'DAlN3FeEpq7CEfIVCTIZtQ' => "\x{e1}", # á
@@ -246,7 +249,8 @@ my %CHARMAP = (
 	'sH0U6sySoHcfsrWLRi3WKw' => "\x{e9}", # é
 	'eI0XMPGXWnrobMwK610k7A' => "\x{ea}", # ê
 	'iiJrpKbqoce9hmfbT/x/WA' => "\x{eb}", # ë
-	'XMi89eqya5e8/BqiYuefFg' => "\x{ef}", # ï
+	'rQPD3nGIbU8YCPvUKmCMOg' => "\x{ef}", # ï
+
 
 	# double height bottom
 	'NwxPqWhvL+a2SVHzVBdgvw' => ' ', # A
@@ -332,8 +336,8 @@ sub debug
 
 # main
 {
-	my %all_chars;
-	my %all_colours;
+	my $all_chars = {};
+	my $all_colours = {};
 
 	my $page    = shift @ARGV;
 	my $subpage = shift @ARGV || 1;
@@ -346,6 +350,15 @@ sub debug
 	my $image = fetch_page($page, $subpage) or die;
 	my $chars = split_image($image);
 	print print_page($chars);
+
+	# save all chars
+	$Storable::canonical=1;
+	my $file = $ENV{HOME} . '/.teletekst.stor';
+	eval { $all_chars = retrieve($file); };
+	uniquify($all_chars,$all_colours,$chars);
+	store($all_chars,$file) or die("can't save $file\n");
+	#print Dumper $all_chars;
+
 	exit;
 
 	for my $p (100..130)
@@ -354,21 +367,21 @@ sub debug
 		my $image = fetch_page($p) or next;
 		my $chars = split_image($image);
 
-		uniquify(\%all_chars,\%all_colours,$chars);
+		uniquify($all_chars,$all_colours,$chars);
 	}
 	
 
-	print_colours(keys %all_colours);
+	print_colours(keys %$all_colours);
 	exit;
 
 	#print Dumper { %all_chars };
-	for my $ch (values %all_chars)
+	for my $ch (values %$all_chars)
 	{
 		print $ch->{id},"\n";
 		print char2str($ch), "\n";
 		print "\n";
 	}
-	printf(qq['%s' => ''\n],$_->{id})  for (values %all_chars)
+	printf(qq['%s' => ''\n],$_->{id})  for (values %$all_chars)
 
 }
 
@@ -473,6 +486,7 @@ sub split_image
 				'char' => \@char,
 				'str'  => $str,
 				'id'   => $id,
+				'trans'=> $CHARMAP{$id},
 			}
 		}
 	}
@@ -482,8 +496,8 @@ sub split_image
 
 sub uniquify
 {
-	my $all_chars   = shift or die;
-	my $all_colours = shift or die;
+	my $all_chars   = shift;
+	my $all_colours = shift;
 	my $chars   = shift or die;
 
 	# iterate over chars
@@ -499,7 +513,7 @@ sub uniquify
 
 			# record char
 			my $id = $char->{id};
-			$all_chars->{$id} = $char
+			$all_chars->{$id} = $char;
 		}
 	}
 }
