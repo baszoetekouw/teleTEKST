@@ -269,6 +269,7 @@ my %CHARMAP = (
 	'axWlA6K3tNH5K/8zYvrVrA' => ' ', # M (inverse)
 	'vDiSf6e/xemQdRnq80joyg' => ' ', # O (inverse)
 	'/qa6OkzeBqZ1C2lYMt1Fjg' => ' ', # P
+	'5U/1Wn6Dtim7ptD05PyU4g' => ' ', # Q
 	'chpPR17D1Vibzd8aeypfcA' => ' ', # R
 	'WqXadYPmuvzCKcZ1h4eIkA' => ' ', # S
 	'nUKQ4cFdYH0iORUf5SBJMw' => ' ', # T
